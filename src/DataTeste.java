@@ -5,7 +5,7 @@ public class DataTeste {
         data1.mes = "Junho";
         data1.ano = 2003;
 
-        System.out.println("Data importante: " + data1.dia + " "
-                + data1.mes + " "  + data1.ano);
+        System.out.printf("%d de %s de %d", data1.dia,
+                data1.mes,data1.ano);
     }
 }
