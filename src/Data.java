@@ -1,5 +1,5 @@
 public class Data {
     int dia;
-    int mes;
+    String mes;
     int ano;
 }
